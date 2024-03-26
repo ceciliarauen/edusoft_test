@@ -55,7 +55,7 @@ class NameDetailScreen extends StatelessWidget {
               children: [
                 if (currentIndex > 0)
                   ElevatedButton(
-                    child: const Text('Previous'),
+                    child: const Text('Anterior'),
                     onPressed: () {
                       Navigator.pushReplacement(
                         context,
@@ -70,7 +70,7 @@ class NameDetailScreen extends StatelessWidget {
                   ),
                 if (currentIndex < names.length - 1)
                   ElevatedButton(
-                    child: const Text('Next'),
+                    child: const Text('Próximo'),
                     onPressed: () {
                       Navigator.pushReplacement(
                         context,
